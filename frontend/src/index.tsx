@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './styles/baseStyles.css';
+
+//* React Components
+import BtHeader from './components/BtHeader/BtHeader';
+import SearchButton from './components/SearchButton/SearchButton';
+import BtFooter from './components/BtFooter/BtFooter';
+import SearchBar from './components/SearchBar/SearchBar';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <BtHeader />
+    <SearchBar />
+    <SearchButton />
+    <BtFooter />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

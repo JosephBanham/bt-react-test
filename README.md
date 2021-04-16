@@ -1,6 +1,23 @@
 # bt-react-test-newsapi
 React Test set by Adrian Boyle and Greg Hall for the upcoming Grade D Front End Development role. Utilizes NewsAPI.
 
+# Setup / Launch Instructions
+To launch the BT NewsAPI App, clone this repo to your machine and open **two** terminal windows.
+
+> In the first, navigate to `bt-react-test/frontend` and run `npm install && npm start`
+
+> In the second, navigate to `bt-react-test/backend` and run `npm install && node index.js`
+
+The app will then become available at http://localhost:3000/.
+
+If you have ran the `npm install` commands and you're developing a fork of this app, to launch in 'dev mode', open **three** terminal windows and run the following.
+
+> In the first, navigate to `bt-react-test/frontend` and run `npm start`
+
+> In the second, navigate to `bt-react-test/backend` and run `node index.js`
+
+> In the third, navigate to `bt-react-test/frontend` and run `npm run scss`
+
 # Tech Stack
 This version of the BT NewsAPI App uses **NewsAPI** as the primary service.
 The environment is built off of **yarn**, combined with **Babel** in order to serve the backend proxy server.

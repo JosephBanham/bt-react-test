@@ -1,0 +1,69 @@
+// A collection of variables that feeds into _functions.scss
+
+// Mixin Colors
+// Contains the color palette of the website; change these to change all instances across the codebase
+$mixin-colors: (
+  'white': #fff,
+  'black': #000,
+  'charcoal': #333,
+  'mist': #EEE,
+  'bt-purple': #5514B4
+);
+
+// Mixin PX Breakpoints
+// The range of responsive breakpoints used in plain PX
+$mixin-px-breakpoints: (
+  'xxs': 359px, // max-width
+  'xs': 360px,  // min-width
+  'sm': 616px,  // min-width
+  'md': 784px,  // min-width
+  'lg': 1024px, // min-width
+  'xl': 1440px  // min-width
+);
+
+// Mixin Media Query breakpoints
+// The same as the above Mixin PX Breakpoints, but used in Media Queries
+$mixin-media-query-breakpoints: (
+  'xxs': 'max-width: 359px',      // Can be used to preempt XS queries
+  'xs': 'min-width: 360px',
+  'pre-sm': 'max-width: 615px',   // Used to preempt SM queries
+  'sm': 'min-width: 616px',
+  'pre-md': 'max-width: 783px',   // Used to preempt MD queries
+  'md': 'min-width: 784px',
+  'pre-lg': 'max-width: 1023px',  // Used to preempt LG queries
+  'lg': 'min-width: 1024px',
+  'pre-xl': 'max-width: 1439px',  // Used to preempt XL queries
+  'xl': 'min-width: 1440px'
+);
+
+// Mixin PX-to-REM
+// Handles the pixel increments used in the codebase; helps to keep the code dry and leaner as I prefer to use REM; intended to be used with paddings and margins primarily; the reason for this Mixin is due to possible browser incompatabilities; as every browser can render px, this ensures no browser is exempt or has REM bugs
+$mixin-rem-to-pxs: (
+  'rem-1': 4px,   // .25rem
+  'rem-2': 8px,   // .5rem
+  'rem-3': 12px,  // .75rem
+  'rem-4': 16px,  // 1rem
+  'rem-5': 20px,  // 1.25rem
+  'rem-6': 24px,  // 1.5rem
+  'rem-7': 28px,  // 1.75rem
+  'rem-8': 32px,  // 2rem
+  'rem-9': 36px,  // 2.25rem
+  'rem-10': 40px  // 2.5rem
+);
+
+// Mixin Percentages
+// Handles the conversion of percentages into easy-to-use variables; base formula is 100/12=8.33 . . . %
+$mixin-percents: (
+  'percent-1': 8.33%,
+  'percent-2': 16.66%,
+  'percent-3': 25%,
+  'percent-4': 33.33%,
+  'percent-5': 41.66%,
+  'percent-6': 50%,
+  'percent-7': 58.33%,
+  'percent-8': 66.66%,
+  'percent-9': 75%,
+  'percent-10': 83.33%,
+  'percent-11': 91.66%,
+  'percent-12': 100%
+);

@@ -1,0 +1,31 @@
+// JS-like functions that draw from _variables.scss to do complex tasks
+
+// SASS Mapper
+// Generates a SASS Map to allow colors in _variables.scss' $mixin-colors to be used in SCSS code
+@function mixin-color($key: 'primary') {
+  @return map-get($mixin-colors, $key);
+}
+
+// PX Breakpoints
+// The range of responsive breakpoints used in plain PX; use $mixin-px-breakpoints in SCSS code
+@function mixin-px-breakpoint($key: 'xxs') {
+  @return map-get($mixin-px-breakpoints, $key);
+}
+
+// Media Query Breakpoints
+// The range of responsive breakpoints used in Media Query format; use $mixin-media-query-breakpoints-breakpoints in SCSS code
+@function mixin-media-query-breakpoint($key: 'xxs') {
+  @return map-get($mixin-media-query-breakpoints, $key);
+}
+
+// REM Converter
+// Converts a predetermined set of rem values into px; can be used across the codebase to ensure backwards compatibility for legacy / custom browsers
+@function mixin-rem-to-px($key: 'rem-1') {
+  @return map-get($mixin-rem-to-pxs, $key);
+}
+
+// Percent Handler
+// Converts a predetermined set of rem values into px; can be used across the codebase to ensure backwards compatibility for legacy / custom browsers
+@function mixin-percent($key: 'percent-1') {
+  @return map-get($mixin-percents, $key);
+}

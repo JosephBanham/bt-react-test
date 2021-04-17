@@ -9,7 +9,7 @@ const app = express();
 /*
  * Constants
  */
-const port = 4000;
+const PORT = 4000;
 const API_KEY = '7f12e4d96d5a4889ac27ccb3a1492770';
 const SEARCH_QUERY = "NHS";
 const SORT_BY = "popularity";
@@ -49,9 +49,9 @@ app.get('/news-api', function (req, res) {
 /*
  * Start Backend API Proxy server
  */
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`=================`)
   console.log(`🎉 API Connected!`)
-  console.log(`🟣 BT React NewsAPI App Test listening at http://localhost:${port}`)
+  console.log(`🟣 BT React NewsAPI App Test listening at http://localhost:${PORT}`)
   console.log(`=================`)
 })

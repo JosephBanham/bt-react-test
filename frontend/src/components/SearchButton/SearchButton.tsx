@@ -36,7 +36,7 @@ function SearchButton() {
               <h3 className="article__author padding-bottom-2 margin-bottom-2">{article.author}</h3>
               <p className="article__content">
                 {article.content.length > 150 ?
-                  `${article.content.substring(0, 150)}... [Click the URL below to read more]` : article.content
+                  `${article.content.substring(0, 150)}... [Article shortened - Click the URL below to read more]` : article.content
                 }
               </p>
               <div className="article__url margin-top-2">

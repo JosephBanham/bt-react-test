@@ -1,4 +1,4 @@
-# bt-react-test-newsapi
+# bt-react-test-newsapi v1.1.0
 React Test set by Adrian Boyle and Greg Hall for the upcoming Grade D Front End Development role. Utilizes NewsAPI.
 
 # Setup / Launch Instructions
@@ -28,7 +28,11 @@ Justification is that this setup largely emulates what we use on a basic level i
 
 # Considerations and Current Bugs
 Please view the Issues tab for the current bug list. Bugs will be listed as _**BUG-100**_ for the first issue, incrementing (Second issue would be _**BUG-101**_ and so forth).
-Also please note that this application is version controlled via the Major-Minor-Patch version control system, and will eventually be converted to BEM (Block-Element-Modifier) class names for the SCSS conversion. The initial version first commited is _**v1.0.0**_.
+Also please note that this application is version controlled via the Major-Minor-Patch version control system, and will eventually be converted to BEM (Block-Element-Modifier) class names for the SCSS conversion. The initial version first commited is _**v1.0.0**_. You can find the changelog at the bottom of this README.
 
 # Contact Details
 If you find anything wrong with this App, or just want to send a nice compliment, email me at _**joseph.gribble@ee.co.uk**_.
+
+# Changelog
+- v1.1.0 - SCSS Conversion - New Minor version as a result.
+- v1.0.0 - Initial Commit.

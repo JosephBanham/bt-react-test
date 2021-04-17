@@ -29,13 +29,18 @@ function SearchButton() {
             title: React.ReactNode;
             author: React.ReactNode;
             content: React.ReactNode;
-            url: React.ReactNode;
+            url: string;
           }) => (
             <div className="article__container box-shadow padding-2 margin-4 margin-left-6 margin-right-6 theme--white">
               <h2 className="article__title padding-bottom-2 margin-bottom-2">{article.title}</h2>
               <h3 className="article__author padding-bottom-2 margin-bottom-2">{article.author}</h3>
               <p className="article__content">{article.content}</p>
-              <p className="article__url margin-top-2">Want to read more? Visit {article.url}</p>
+              <div className="article__url margin-top-2">
+                <p>
+                  <p>Source:</p>
+                  <a href={article.url}>{article.url}</a>
+                </p>
+              </div>
             </div>
           ))}
         </div>

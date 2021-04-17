@@ -1,0 +1,679 @@
+.align {
+  &-items {
+    &--baseline {
+      align-items: baseline;
+
+      &--override {
+        align-items: baseline !important;
+      }
+    }
+    &--center {
+      align-items: center;
+
+      &--override {
+        align-items: center !important;
+      }
+    }
+    &--end {
+      align-items: end;
+
+      &--override {
+        align-items: end !important;
+      }
+    }
+    &--flex-end {
+      align-items: flex-end;
+
+      &--override {
+        align-items: flex-end !important;
+      }
+    }
+    &--flex-start {
+      align-items: flex-start;
+
+      &--override {
+        align-items: flex-start !important;
+      }
+    }
+    &--inherit {
+      align-items: inherit;
+
+      &--override {
+        align-items: inherit !important;
+      }
+    }
+    &--initial {
+      align-items: initial;
+
+      &--override {
+        align-items: initial !important;
+      }
+    }
+    &--normal {
+      align-items: normal;
+
+      &--override {
+        align-items: normal !important;
+      }
+    }
+    &--revert {
+      align-items: revert;
+
+      &--override {
+        align-items: revert !important;
+      }
+    }
+    &--self-end {
+      align-items: self-end;
+
+      &--override {
+        align-items: self-end !important;
+      }
+    }
+    &--self-start {
+      align-items: self-start
+
+      &--override {
+        align-items: self-start;
+      }
+    }
+    &--start {
+      align-items: start;
+
+      &--override {
+        align-items: start !important;
+      }
+    }
+    &--stretch {
+      align-items: stretch;
+
+      &--override {
+        align-items: stretch !important;
+      }
+    }
+    &--unset {
+      align-items: unset;
+
+      &--override {
+        align-items: unset !important;
+      }
+    }
+  }
+
+  &-self {
+    &--auto {
+      align-self: auto;
+
+      &--override {
+        align-self: auto !important;
+      }
+    }
+    &--baseline {
+      align-self: baseline;
+
+      &--override {
+        align-self: baseline !important;
+      }
+    }
+    &--center {
+      align-self: center;
+
+      &--override {
+        align-self: center !important;
+      }
+    }
+    &--end {
+      align-self: end;
+
+      &--override {
+        align-self: end !important;
+      }
+    }
+    &--flex-end {
+      align-self: flex-end;
+
+      &--override {
+        align-self: flex-end !important;
+      }
+    }
+    &--flex-start {
+      align-self: flex-start;
+
+      &--override {
+        align-self: flex-start !important;
+      }
+    }
+    &--inherit {
+      align-self: inherit;
+
+      &--override {
+        align-self: inherit !important;
+      }
+    }
+    &--initial {
+      align-self: initial;
+
+      &--override {
+        align-self: initial !important;
+      }
+    }
+    &--normal {
+      align-self: normal;
+
+      &--override {
+        align-self: normal !important;
+      }
+    }
+    &--revert {
+      align-self: revert;
+
+      &--override {
+        align-self: revert !important;
+      }
+    }
+    &--self-end {
+      align-self: self-end;
+
+      &--override {
+        align-self: self-end !important;
+      }
+    }
+    &--self-start {
+      align-self: self-start
+
+      &--override {
+        align-self: self-start;
+      }
+    }
+    &--start {
+      align-self: start;
+
+      &--override {
+        align-self: start !important;
+      }
+    }
+    &--stretch {
+      align-self: stretch;
+
+      &--override {
+        align-self: stretch !important;
+      }
+    }
+    &--unset {
+      align-self: unset;
+
+      &--override {
+        align-self: unset !important;
+      }
+    }
+  }
+
+  &-content {
+    &--baseline {
+      align-content: baseline;
+
+      &--override {
+        align-content: baseline !important;
+      }
+    }
+    &--center {
+      align-content: center;
+
+      &--override {
+        align-content: center !important;
+      }
+    }
+    &--end {
+      align-content: end;
+
+      &--override {
+        align-content: end !important;
+      }
+    }
+    &--flex-end {
+      align-content: flex-end;
+
+      &--override {
+        align-content: flex-end !important;
+      }
+    }
+    &--flex-start {
+      align-content: flex-start;
+
+      &--override {
+        align-content: flex-start !important;
+      }
+    }
+    &--inherit {
+      align-content: inherit;
+
+      &--override {
+        align-content: inherit !important;
+      }
+    }
+    &--initial {
+      align-content: initial;
+
+      &--override {
+        align-content: initial !important;
+      }
+    }
+    &--normal {
+      align-content: normal;
+
+      &--override {
+        align-content: normal !important;
+      }
+    }
+    &--revert {
+      align-content: revert;
+
+      &--override {
+        align-content: revert !important;
+      }
+    }
+    &--space-around {
+      align-content: space-around;
+
+      &--override {
+        align-content: space-around !important;
+      }
+    }
+    &--space-between {
+      align-content: space-between;
+
+      &--override {
+        align-content: space-between !important;
+      }
+    }
+    &--space-evenly {
+      align-content: space-evenly;
+
+      &--override {
+        align-content: space-evenly !important;
+      }
+    }
+    &--start {
+      align-content: start;
+
+      &--override {
+        align-content: start !important;
+      }
+    }
+    &--stretch {
+      align-content: stretch;
+
+      &--override {
+        align-content: stretch !important;
+      }
+    }
+    &--unset {
+      align-content: unset;
+
+      &--override {
+        align-content: unset !important;
+      }
+    }
+  }
+}
+
+.justify {
+  &-items {
+    &--baseline {
+      justify-items: baseline;
+
+      &--override {
+        justify-items: baseline !important;
+      }
+    }
+    &--center {
+      justify-items: center;
+
+      &--override {
+        justify-items: center !important;
+      }
+    }
+    &--end {
+      justify-items: end;
+
+      &--override {
+        justify-items: end !important;
+      }
+    }
+    &--flex-end {
+      justify-items: flex-end;
+
+      &--override {
+        justify-items: flex-end !important;
+      }
+    }
+    &--flex-start {
+      justify-items: flex-start;
+
+      &--override {
+        justify-items: flex-start !important;
+      }
+    }
+    &--inherit {
+      justify-items: inherit;
+
+      &--override {
+        justify-items: inherit !important;
+      }
+    }
+    &--initial {
+      justify-items: initial;
+
+      &--override {
+        justify-items: initial !important;
+      }
+    }
+    &--left {
+      justify-items: left;
+
+      &--override {
+        justify-items: left !important;
+      }
+    }
+    &--legacy {
+      justify-items: legacy;
+
+      &--override {
+        justify-items: legacy !important;
+      }
+    }
+    &--normal {
+      justify-items: normal;
+
+      &--override {
+        justify-items: normal !important;
+      }
+    }
+    &--revert {
+      justify-items: revert;
+
+      &--override {
+        justify-items: revert !important;
+      }
+    }
+    &--right {
+      justify-items: right;
+
+      &--override {
+        justify-items: right !important;
+      }
+    }
+    &--self-end {
+      justify-items: self-end;
+
+      &--override {
+        justify-items: self-end !important;
+      }
+    }
+    &--self-start {
+      justify-items: self-start
+
+      &--override {
+        justify-items: self-start;
+      }
+    }
+    &--start {
+      justify-items: start;
+
+      &--override {
+        justify-items: start !important;
+      }
+    }
+    &--stretch {
+      justify-items: stretch;
+
+      &--override {
+        justify-items: stretch !important;
+      }
+    }
+    &--unset {
+      justify-items: unset;
+
+      &--override {
+        justify-items: unset !important;
+      }
+    }
+  }
+
+  &-self {
+    &--auto {
+      justify-self: auto;
+
+      &--override {
+        justify-self: auto !important;
+      }
+    }
+    &--baseline {
+      justify-self: baseline;
+
+      &--override {
+        justify-self: baseline !important;
+      }
+    }
+    &--center {
+      justify-self: center;
+
+      &--override {
+        justify-self: center !important;
+      }
+    }
+    &--end {
+      justify-self: end;
+
+      &--override {
+        justify-self: end !important;
+      }
+    }
+    &--flex-end {
+      justify-self: flex-end;
+
+      &--override {
+        justify-self: flex-end !important;
+      }
+    }
+    &--flex-start {
+      justify-self: flex-start;
+
+      &--override {
+        justify-self: flex-start !important;
+      }
+    }
+    &--inherit {
+      justify-self: inherit;
+
+      &--override {
+        justify-self: inherit !important;
+      }
+    }
+    &--initial {
+      justify-self: initial;
+
+      &--override {
+        justify-self: initial !important;
+      }
+    }
+    &--left {
+      justify-self: left;
+
+      &--override {
+        justify-self: left !important;
+      }
+    }
+    &--normal {
+      justify-self: normal;
+
+      &--override {
+        justify-self: normal !important;
+      }
+    }
+    &--revert {
+      justify-self: revert;
+
+      &--override {
+        justify-self: revert !important;
+      }
+    }
+    &--right {
+      justify-self: right;
+
+      &--override {
+        justify-self: right !important;
+      }
+    }
+    &--self-end {
+      justify-self: self-end;
+
+      &--override {
+        justify-self: self-end !important;
+      }
+    }
+    &--self-start {
+      justify-self: self-start
+
+      &--override {
+        justify-self: self-start;
+      }
+    }
+    &--start {
+      justify-self: start;
+
+      &--override {
+        justify-self: start !important;
+      }
+    }
+    &--stretch {
+      justify-self: stretch;
+
+      &--override {
+        justify-self: stretch !important;
+      }
+    }
+    &--unset {
+      justify-self: unset;
+
+      &--override {
+        justify-self: unset !important;
+      }
+    }
+  }
+
+  &-content {
+    &--center {
+      justify-content: center;
+
+      &--override {
+        justify-content: center !important;
+      }
+    }
+    &--end {
+      justify-content: end;
+
+      &--override {
+        justify-content: end !important;
+      }
+    }
+    &--flex-end {
+      justify-content: flex-end;
+
+      &--override {
+        justify-content: flex-end !important;
+      }
+    }
+    &--flex-start {
+      justify-content: flex-start;
+
+      &--override {
+        justify-content: flex-start !important;
+      }
+    }
+    &--inherit {
+      justify-content: inherit;
+
+      &--override {
+        justify-content: inherit !important;
+      }
+    }
+    &--initial {
+      justify-content: initial;
+
+      &--override {
+        justify-content: initial !important;
+      }
+    }
+    &--left {
+      justify-content: left;
+
+      &--override {
+        justify-content: left !important;
+      }
+    }
+    &--normal {
+      justify-content: normal;
+
+      &--override {
+        justify-content: normal !important;
+      }
+    }
+    &--revert {
+      justify-content: revert;
+
+      &--override {
+        justify-content: revert !important;
+      }
+    }
+    &--right {
+      justify-content: right;
+
+      &--override {
+        justify-content: right !important;
+      }
+    }
+    &--space-around {
+      justify-content: space-around;
+
+      &--override {
+        justify-content: space-around !important;
+      }
+    }
+    &--space-between {
+      justify-content: space-between;
+
+      &--override {
+        justify-content: space-between !important;
+      }
+    }
+    &--space-evenly {
+      justify-content: space-evenly;
+
+      &--override {
+        justify-content: space-evenly !important;
+      }
+    }
+    &--start {
+      justify-content: start;
+
+      &--override {
+        justify-content: start !important;
+      }
+    }
+    &--stretch {
+      justify-content: stretch;
+
+      &--override {
+        justify-content: stretch !important;
+      }
+    }
+    &--unset {
+      justify-content: unset;
+
+      &--override {
+        justify-content: unset !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+// Modifications to the base stylings of SCSS; ONLY base styles should go in here
+
+body {
+  padding: 0;
+  margin: 0;
+  overscroll-behavior: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+  display: inherit;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
+hr {
+  margin: 0;
+  color: inherit;
+  background-color: inherit;
+  border: none;
+}
+
+img {
+  width: auto;
+  height: fit-content;
+}

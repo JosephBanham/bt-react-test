@@ -1,0 +1,37 @@
+.search__button {
+  border: .25rem solid mixin-color('bt-purple');
+  border-radius: 10rem;
+  font-weight: 900;
+}
+
+.results__container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article {
+  &__container {
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    transition: all .25s;
+
+    &:hover, :focus {
+      transform: scale(1.025);
+      transition: all .25s;
+    }
+  }
+
+  &__title {
+    border-bottom: .5rem solid mixin-color('mist');
+  }
+
+  &__author {
+    border-bottom: .5rem solid mixin-color('mist');
+    word-break: break-word;
+  }
+
+  &__url {
+    font-style: italic;
+    word-break: break-word;
+  }
+}

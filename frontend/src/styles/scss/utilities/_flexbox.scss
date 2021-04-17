@@ -1,0 +1,2032 @@
+// TO-DO: Add breakpoints into variables
+
+// Basic column set - You can use width breakpoints for different widths at different sizes, and control the left and right column offsets (Blank columns) via col-left-offset & col-right-offset.
+.col {
+  &-left-offset {
+    &-1 {
+      margin-left: mixin-percent('percent-1');
+    }
+    &-2 {
+      margin-left: mixin-percent('percent-2');
+    }
+    &-3 {
+      margin-left: mixin-percent('percent-3');
+    }
+    &-4 {
+      margin-left: mixin-percent('percent-4');
+    }
+    &-5 {
+      margin-left: mixin-percent('percent-5');
+    }
+    &-6 {
+      margin-left: mixin-percent('percent-6');
+    }
+    &-7 {
+      margin-left: mixin-percent('percent-7');
+    }
+    &-8 {
+      margin-left: mixin-percent('percent-8');
+    }
+    &-9 {
+      margin-left: mixin-percent('percent-9');
+    }
+    &-10 {
+      margin-left: mixin-percent('percent-10');
+    }
+    &-11 {
+      margin-left: mixin-percent('percent-11');
+    }
+    &-12 {
+      margin-left: mixin-percent('percent-12');
+    }
+  }
+  &-right-offset {
+    &-1 {
+      margin-right: mixin-percent('percent-1');
+    }
+    &-2 {
+      margin-right: mixin-percent('percent-2');
+    }
+    &-3 {
+      margin-right: mixin-percent('percent-3');
+    }
+    &-4 {
+      margin-right: mixin-percent('percent-4');
+    }
+    &-5 {
+      margin-right: mixin-percent('percent-5');
+    }
+    &-6 {
+      margin-right: mixin-percent('percent-6');
+    }
+    &-7 {
+      margin-right: mixin-percent('percent-7');
+    }
+    &-8 {
+      margin-right: mixin-percent('percent-8');
+    }
+    &-9 {
+      margin-right: mixin-percent('percent-9');
+    }
+    &-10 {
+      margin-right: mixin-percent('percent-10');
+    }
+    &-11 {
+      margin-right: mixin-percent('percent-11');
+    }
+    &-12 {
+      margin-right: mixin-percent('percent-12');
+    }
+  }
+  &-0 {
+    max-width: 0;
+    flex-basis: 0;
+    display: none;
+  }
+  &-1 {
+    max-width: mixin-percent('percent-1');
+    flex-basis: mixin-percent('percent-1');
+    display: flex;
+  }
+  &-2 {
+    max-width: mixin-percent('percent-2');
+    flex-basis: mixin-percent('percent-2');
+    display: flex;
+  }
+  &-3 {
+    max-width: mixin-percent('percent-3');
+    flex-basis: mixin-percent('percent-3');
+    display: flex;
+  }
+  &-4 {
+    max-width: mixin-percent('percent-4');
+    flex-basis: mixin-percent('percent-4');
+    display: flex;
+  }
+  &-5 {
+    max-width: mixin-percent('percent-5');
+    flex-basis: mixin-percent('percent-5');
+    display: flex;
+  }
+  &-6 {
+    max-width: mixin-percent('percent-6');
+    flex-basis: mixin-percent('percent-6');
+    display: flex;
+  }
+  &-7 {
+    max-width: mixin-percent('percent-7');
+    flex-basis: mixin-percent('percent-7');
+    display: flex;
+  }
+  &-8 {
+    max-width: mixin-percent('percent-8');
+    flex-basis: mixin-percent('percent-8');
+    display: flex;
+  }
+  &-9 {
+    max-width: mixin-percent('percent-9');
+    flex-basis: mixin-percent('percent-9');
+    display: flex;
+  }
+  &-10 {
+    max-width: mixin-percent('percent-10');
+    flex-basis: mixin-percent('percent-10');
+    display: flex;
+  }
+  &-11 {
+    max-width: mixin-percent('percent-11');
+    flex-basis: mixin-percent('percent-11');
+    display: flex;
+  }
+  &-12 {
+    max-width: mixin-percent('percent-12');
+    flex-basis: mixin-percent('percent-12');
+    display: flex;
+  }
+
+  &-xxs {
+    @media only screen and (max-width:359px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-xs {
+    @media only screen and (min-width: 360px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-xxs-to-sm {
+    @media only screen and (max-width: 615px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-xs-to-sm {
+    @media only screen and (min-width: 360px) and (max-width: 615px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-sm {
+    @media only screen and (min-width: 616px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-sm-to-md {
+    @media only screen and (min-width: 616px) and (max-width: 783px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-xxs-to-md {
+    @media only screen and (max-width: 783px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-md {
+    @media only screen and (min-width: 784px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-sm-to-lg {
+    @media only screen and (min-width: 616px) and (max-width: 1023px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-md-to-lg {
+    @media only screen and (min-width: 784px) and (max-width: 1023px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-lg {
+    @media only screen and (min-width: 1024px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-lg-to-xl {
+    @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+  &-xl {
+    @media only screen and (min-width: 1440px) {
+      &-left-offset {
+        &-1 {
+          margin-left: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-left: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-left: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-left: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-left: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-left: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-left: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-left: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-left: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-left: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-left: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-left: mixin-percent('percent-12');
+        }
+      }
+      &-right-offset {
+        &-1 {
+          margin-right: mixin-percent('percent-1');
+        }
+        &-2 {
+          margin-right: mixin-percent('percent-2');
+        }
+        &-3 {
+          margin-right: mixin-percent('percent-3');
+        }
+        &-4 {
+          margin-right: mixin-percent('percent-4');
+        }
+        &-5 {
+          margin-right: mixin-percent('percent-5');
+        }
+        &-6 {
+          margin-right: mixin-percent('percent-6');
+        }
+        &-7 {
+          margin-right: mixin-percent('percent-7');
+        }
+        &-8 {
+          margin-right: mixin-percent('percent-8');
+        }
+        &-9 {
+          margin-right: mixin-percent('percent-9');
+        }
+        &-10 {
+          margin-right: mixin-percent('percent-10');
+        }
+        &-11 {
+          margin-right: mixin-percent('percent-11');
+        }
+        &-12 {
+          margin-right: mixin-percent('percent-12');
+        }
+      }
+      &-0 {
+        max-width: 0;
+        flex-basis: 0;
+        display: none;
+      }
+      &-1 {
+        max-width: mixin-percent('percent-1');
+        flex-basis: mixin-percent('percent-1');
+        display: flex;
+      }
+      &-2 {
+        max-width: mixin-percent('percent-2');
+        flex-basis: mixin-percent('percent-2');
+        display: flex;
+      }
+      &-3 {
+        max-width: mixin-percent('percent-3');
+        flex-basis: mixin-percent('percent-3');
+        display: flex;
+      }
+      &-4 {
+        max-width: mixin-percent('percent-4');
+        flex-basis: mixin-percent('percent-4');
+        display: flex;
+      }
+      &-5 {
+        max-width: mixin-percent('percent-5');
+        flex-basis: mixin-percent('percent-5');
+        display: flex;
+      }
+      &-6 {
+        max-width: mixin-percent('percent-6');
+        flex-basis: mixin-percent('percent-6');
+        display: flex;
+      }
+      &-7 {
+        max-width: mixin-percent('percent-7');
+        flex-basis: mixin-percent('percent-7');
+        display: flex;
+      }
+      &-8 {
+        max-width: mixin-percent('percent-8');
+        flex-basis: mixin-percent('percent-8');
+        display: flex;
+      }
+      &-9 {
+        max-width: mixin-percent('percent-9');
+        flex-basis: mixin-percent('percent-9');
+        display: flex;
+      }
+      &-10 {
+        max-width: mixin-percent('percent-10');
+        flex-basis: mixin-percent('percent-10');
+        display: flex;
+      }
+      &-11 {
+        max-width: mixin-percent('percent-11');
+        flex-basis: mixin-percent('percent-11');
+        display: flex;
+      }
+      &-12 {
+        max-width: mixin-percent('percent-12');
+        flex-basis: mixin-percent('percent-12');
+        display: flex;
+      }
+    }
+  }
+}

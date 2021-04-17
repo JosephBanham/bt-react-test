@@ -1,0 +1,42 @@
+.theme {
+  &--white {
+    background-color: mixin-color('white');
+    color: mixin-color('charcoal');
+    &--override {
+      background-color: mixin-color('white') !important;
+      color: mixin-color('charcoal') !important;
+    }
+  }
+  &--black {
+    background-color: mixin-color('black');
+    color: mixin-color('white');
+    &--override {
+      background-color: mixin-color('black') !important;
+      color: mixin-color('white') !important;
+    }
+  }
+  &--charcoal {
+    background-color: mixin-color('charcoal');
+    color: mixin-color('white');
+    &--override {
+      background-color: mixin-color('charcoal') !important;
+      color: mixin-color('white') !important;
+    }
+  }
+  &--mist {
+    background-color: mixin-color('mist');
+    color: mixin-color('charcoal');
+    &--override {
+      background-color: mixin-color('mist') !important;
+      color: mixin-color('charcoal') !important;
+    }
+  }
+  &--bt-purple {
+    background-color: mixin-color('bt-purple');
+    color: mixin-color('white');
+    &--override {
+      background-color: mixin-color('bt-purple') !important;
+      color: mixin-color('white') !important;
+    }
+  }
+}

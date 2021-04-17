@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/baseStyles.css';
+import './styles/css/main.css';
 
 //* React Components
 import BtHeader from './components/BtHeader/BtHeader';

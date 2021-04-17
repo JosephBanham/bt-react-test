@@ -1,0 +1,24 @@
+// Compiler for main.scss
+
+// Mixins and variables for automatic SASS/SCSS calculations
+@import "mixins/_functions.scss";
+@import "mixins/_variables.scss";
+
+// Base SASS/SCSS styles (To offset default style settings)
+@import "base/_base-modifiers.scss";
+@import "base/_text.scss";
+
+// Utility classes to speed up SASS/SCSS development
+@import "utilities/_display.scss";
+@import "utilities/_position.scss";
+@import "utilities/_flex-aligners.scss";
+@import "utilities/_flexbox.scss";
+@import "utilities/_background-themes.scss";
+@import "utilities/_width-and-height.scss";
+@import "utilities/_color.scss";
+@import "utilities/_box-shadows.scss";
+@import "utilities/_margin-and-padding-helpers.scss";
+
+// Component-specific styles.scss files
+@import "../../components/BtHeader/_styles.scss";
+@import "../../components/SearchButton/_styles.scss";

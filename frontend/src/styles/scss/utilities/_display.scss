@@ -1,0 +1,184 @@
+.display {
+  &--block {
+    display: block;
+
+    &--override {
+      display: block !important;
+    }
+  }
+  &--contents {
+    display: contents;
+
+    &--override {
+      display: contents !important;
+    }
+  }
+  &--flex {
+    display: flex;
+
+    &--override {
+      display: flex !important;
+    }
+  }
+  &--flow-root {
+    display: flow-root;
+
+    &--override {
+      display: flow-root !important;
+    }
+  }
+  &--grid {
+    display: grid;
+
+    &--override {
+      display: grid !important;
+    }
+  }
+  &--inherit {
+    display: inherit;
+
+    &--override {
+      display: inherit !important;
+    }
+  }
+  &--initial {
+    display: initial;
+
+    &--override {
+      display: initial !important;
+    }
+  }
+  &--inline {
+    display: inline;
+
+    &--override {
+      display: inline !important;
+    }
+  }
+  &--inline-block {
+    display: inline-block;
+
+    &--override {
+      display: inline-block !important;
+    }
+  }
+  &--inline-flex {
+    display: inline-flex;
+
+    &--override {
+      display: inline-flex !important;
+    }
+  }
+  &--inline-grid {
+    display: inline-grid;
+
+    &--override {
+      display: inline-grid !important;
+    }
+  }
+  &--inline-table {
+    display: inline-table;
+
+    &--override {
+      display: inline-table !important;
+    }
+  }
+  &--list-item {
+    display: list-item;
+
+    &--override {
+      display: list-item !important;
+    }
+  }
+  &--none {
+    display: none;
+
+    &--override {
+      display: none !important;
+    }
+  }
+  &--revert {
+    display: revert;
+
+    &--override {
+      display: revert !important;
+    }
+  }
+  &--table {
+    display: table;
+
+    &--override {
+      display: table !important;
+    }
+  }
+  &--table-caption {
+    display: table-caption;
+
+    &--override {
+      display: table-caption !important;
+    }
+  }
+  &--table-cell {
+    display: table-cell;
+
+    &--override {
+      display: table-cell !important;
+    }
+  }
+  &--table-column {
+    display: table-column;
+
+    &--override {
+      display: table-column !important;
+    }
+  }
+  &--table-column-group {
+    display: table-column-group;
+
+    &--override {
+      display: table-column-group;
+    }
+  }
+  &--table-footer-group {
+    display: table-footer-group;
+
+    &--override {
+      display: table-footer-group !important;
+    }
+  }
+  &--table-header-group {
+    display: table-header-group;
+
+    &--override {
+      display: table-header-group !important;
+    }
+  }
+  &--table-row {
+    display: table-row;
+
+    &--override {
+      display: table-row !important;
+    }
+  }
+  &--table-row-group {
+    display: table-row-group;
+
+    &--override {
+      display: table-row-group !important;
+    }
+  }
+  &--webkit-box {
+    display: -webkit-box;
+
+    &--override {
+      display: -webkit-box !important;
+    }
+  }
+  &--webkit-inline-box {
+    display: -webkit-inline-box;
+
+    &--override {
+      display: -webkit-inline-box !important;
+    }
+  }
+}

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './SearchButton.css';
 
 function SearchButton() {
   const [ newsResponse, setNewsResponse ]= useState(null);
@@ -19,24 +18,24 @@ function SearchButton() {
   }
 
   return (
-    <div>
-      <button className="search-button" onClick={queryOnClick}>
-        Search
+    <div className="theme--white">
+      <button className="search__button padding-1 margin-1" onClick={queryOnClick}>
+        Click to search
       </button>
     
       {newsResponse && newsResponse.articles ? (
-        <div className="results-container">
+        <div className="results__container padding-2 theme--mist">
           {newsResponse.articles.map((article: { 
             title: React.ReactNode;
             author: React.ReactNode;
             content: React.ReactNode;
             url: React.ReactNode;
           }) => (
-            <div className="article-container">
-              <div className="article-title">{article.title}</div>
-              <div className="article-author">{article.author}</div>
-              <div className="article-content">{article.content}</div>
-              <div className="article-url"><p>Want to read more? Visit:</p>{article.url}</div>
+            <div className="article__container box-shadow padding-2 margin-4 margin-left-6 margin-right-6 theme--white">
+              <h2 className="article__title padding-bottom-2 margin-bottom-2">{article.title}</h2>
+              <h3 className="article__author padding-bottom-2 margin-bottom-2">{article.author}</h3>
+              <p className="article__content">{article.content}</p>
+              <p className="article__url margin-top-2">Want to read more? Visit {article.url}</p>
             </div>
           ))}
         </div>

@@ -1,0 +1,65 @@
+.position {
+  &--absolute {
+    position: absolute;
+
+    &--override {
+      position: absolute !important;
+    }
+  }
+  &--fixed {
+    position: fixed;
+
+    &--override {
+      position: fixed !important;
+    }
+  }
+  &--inherit {
+    position: inherit;
+
+    &--override {
+      position: inherit !important;
+    }
+  }
+  &--initial {
+    position: initial;
+
+    &--override {
+      position: initial !important;
+    }
+  }
+  &--relative {
+    position: relative;
+
+    &--override {
+      position: relative !important;
+    }
+  }
+  &--revert {
+    position: revert;
+
+    &--override {
+      position: revert !important;
+    }
+  }
+  &--static {
+    position: static;
+
+    &--override {
+      position: static !important;
+    }
+  }
+  &--sticky {
+    position: sticky;
+
+    &--override {
+      position: sticky !important;
+    }
+  }
+  &--unset {
+    position: unset;
+
+    &--override {
+      position: unset !important;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 # bt-react-test-newsapi v1.2.0
-React Test set by Adrian Boyle and Greg Hall for the upcoming Grade D Front End Development role. Utilizes NewsAPI.
+React Test set by Adrian Boyle and Greg Hall for the upcoming Grade D Front End Development role. Utilizes [NewsAPI](https://newsapi.org/).
 
 # Setup / Launch Instructions
 To launch the BT NewsAPI App, clone this repo to your machine and open **two** terminal windows.

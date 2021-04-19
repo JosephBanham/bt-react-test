@@ -7,7 +7,7 @@ function SearchButton({ onClick }: { onClick: () => void }) {
         className="search__button padding-2"
         onClick={onClick}
       >
-        Click to search
+        Click or press Enter to search
       </button>
     </div>
   );
@@ -83,10 +83,7 @@ function ArticleList({ articles }: NewsResponse) {
               : article.content}
           </p>
           <div className="article__url margin-top-2">
-            <p>
-              <p>Source:</p>
-              <a href={article.url}>{article.url}</a>
-            </p>
+            <p>Source: <a href={article.url}>{article.url}</a></p>
           </div>
         </div>
       ))}

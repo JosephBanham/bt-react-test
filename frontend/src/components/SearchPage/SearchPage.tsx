@@ -83,7 +83,10 @@ function ArticleList({ articles }: NewsResponse) {
               : article.content}
           </p>
           <div className="article__url margin-top-2">
-            <p>Source: <a href={article.url}>{article.url}</a></p>
+            <p>
+              <p>Source:</p>
+              <a href={article.url}>{article.url}</a>
+            </p>
           </div>
         </div>
       ))}

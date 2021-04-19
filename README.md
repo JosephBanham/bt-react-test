@@ -1,4 +1,4 @@
-# bt-react-test-newsapi v1.1.2
+# bt-react-test-newsapi v1.2.0
 React Test set by Adrian Boyle and Greg Hall for the upcoming Grade D Front End Development role. Utilizes NewsAPI.
 
 # Setup / Launch Instructions
@@ -34,6 +34,7 @@ Also please note that this application is version controlled via the Major-Minor
 If you find anything wrong with this App, or just want to send a nice compliment, email me at _**joseph.gribble@ee.co.uk**_.
 
 # Changelog
+- v1.2.0 - Implementation of working search and unification of SearchButton and SearchBar files; also minor page redesign - New Minor version as a result.
 - v1.1.2 - Limited the maximum number of characters pulled from an article to be 150.
 - v1.1.1 - URL click fix.
 - v1.1.0 - SCSS Conversion - New Minor version as a result.

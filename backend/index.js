@@ -11,7 +11,6 @@ const app = express();
  */
 const PORT = 4000;
 const API_KEY = '7f12e4d96d5a4889ac27ccb3a1492770';
-const SEARCH_QUERY = "NHS";
 const SORT_BY = "popularity";
 const PAGE_SIZE = 10;
 
@@ -29,8 +28,9 @@ app.use(cors(corsOptions));
  * Setup to request NewsAPI data using Fetch API
  */
 app.get('/news-api', function (req, res) {
-  fetch(`https://newsapi.org/v2/everything?q=${SEARCH_QUERY}&sortBy=${SORT_BY}&pageSize=${PAGE_SIZE}&apiKey=${API_KEY}`, {
-    headers: { 'Content-Type': 'application/json' }
+  const searchQuery = req.query.search || "Bitcoin";
+  fetch(`https://newsapi.org/v2/everything?q=${searchQuery}&sortBy=${SORT_BY}&pageSize=${PAGE_SIZE}&apiKey=${API_KEY}`, {
+    headers:{ 'Content-Type': 'application/json' }
   })
     .then((response) => response.json())
     .then((result) => {
@@ -44,7 +44,7 @@ app.get('/news-api', function (req, res) {
         error: ex
      });
     });
-})
+});
 
 /*
  * Start Backend API Proxy server
@@ -54,4 +54,4 @@ app.listen(PORT, () => {
   console.log(`🎉 API Connected!`)
   console.log(`🟣 BT React NewsAPI App Test listening at http://localhost:${PORT}`)
   console.log(`=================`)
-})
+});

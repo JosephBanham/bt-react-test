@@ -2875,12 +2875,22 @@ h4 {
   align-items: center; }
 
 .search__button {
+  margin: .5rem auto;
+  display: block;
   border: 0.25rem solid #5514B4;
   border-radius: 10rem;
-  font-weight: 900; }
+  font-weight: 900;
+  transition: all 0.25s; }
+  .search__button:hover {
+    background: #5514B4;
+    color: #fff;
+    transform: scale(1.075);
+    transition: all 0.25s;
+    cursor: pointer; }
 
 .results__container {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 2rem; }
 
 .article__container {
   display: inline-flex;
@@ -2888,7 +2898,7 @@ h4 {
   border-radius: 1rem;
   transition: all .25s; }
   .article__container:hover, .article__container :focus {
-    transform: scale(1.025);
+    transform: scale(1.075);
     transition: all .25s; }
 
 .article__title {
@@ -2901,3 +2911,15 @@ h4 {
 .article__url {
   font-style: italic;
   word-break: break-word; }
+
+.search__bar {
+  display: block;
+  margin: .5rem auto;
+  border: 0.25rem solid #5514B4;
+  border-radius: 25rem;
+  text-align: center;
+  transition: all .25s; }
+  .search__bar:hover, .search__bar :focus {
+    text-decoration: underline;
+    transform: scale(1.075);
+    transition: all .25s; }

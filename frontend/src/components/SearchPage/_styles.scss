@@ -1,0 +1,17 @@
+.search {
+    &__bar {
+        display: block;
+        margin: .5rem auto;
+        border: .25rem solid mixin-color('bt-purple');
+        border-radius: 25rem;
+        text-align: center;
+        transition: all .25s;
+
+        &:hover, :focus {
+            text-decoration: underline;
+            transform: scale(1.075);
+            transition: all .25s;
+        }
+    }
+}
+

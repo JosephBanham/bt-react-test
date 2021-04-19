@@ -28,7 +28,7 @@ app.use(cors(corsOptions));
  * Setup to request NewsAPI data using Fetch API
  */
 app.get('/news-api', function (req, res) {
-  const searchQuery = req.params.search || "Bitcoin";
+  const searchQuery = req.query.search || "Bitcoin";
   fetch(`https://newsapi.org/v2/everything?q=${searchQuery}&sortBy=${SORT_BY}&pageSize=${PAGE_SIZE}&apiKey=${API_KEY}`, {
     headers:{ 'Content-Type': 'application/json' }
   })

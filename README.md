@@ -33,6 +33,13 @@ Also please note that this application is version controlled via the Major-Minor
 # Contact Details
 If you find anything wrong with this App, or just want to send a nice compliment, email me at _**joseph.gribble@ee.co.uk**_.
 
+# Tested on...
+- Google Chrome (Version 89.0.4389.82 (Official Build) (x86_64)), MacOS Catalina (10.15.7)
+- Mozilla Firefox (87.0 (64-bit)), MacOS Catalina (10.15.7)
+- Safari (Version 14.0.1 (15610.2.11.51.10, 15610)), MacOS Catalina (10.15.7)
+
+Issues with IE are known. For progress on a fix, please see [BUG-113](https://github.com/JosephBanham/bt-react-test/issues/18)
+
 # Changelog
 - v1.2.0 - Implementation of working search and unification of SearchButton and SearchBar files; also minor page redesign - New Minor version as a result.
 - v1.1.2 - Limited the maximum number of characters pulled from an article to be 150.

@@ -7,7 +7,7 @@
         text-align: center;
         transition: all .25s;
 
-        &:hover, :focus {
+        &:hover, &:focus {
             text-decoration: underline;
             transform: scale(1.075);
             transition: all .25s;
@@ -15,3 +15,47 @@
     }
 }
 
+.results__container {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .article {
+    &__image {
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      height: auto;
+    }
+  
+    &__container {
+      border-radius: 1rem;
+      flex-flow: column;
+      vertical-align: top;
+      transition: all .25s;
+  
+      &:hover, &:focus {
+        transform: scale(1.025);
+        transition: all .25s;
+      }
+  
+      &:focus {
+        outline: .125rem solid mixin-color('charcoal');
+      }
+    }
+  
+    &__title {
+      border-top: .5rem solid mixin-color('mist');
+      border-bottom: .5rem solid mixin-color('mist');
+    }
+  
+    &__author {
+      border-bottom: .5rem solid mixin-color('mist');
+      word-break: break-word;
+    }
+  
+    &__url {
+      font-style: italic;
+      word-break: break-word;
+    }
+  }

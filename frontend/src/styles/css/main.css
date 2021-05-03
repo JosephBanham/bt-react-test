@@ -2874,34 +2874,41 @@ h4 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   align-items: center; }
 
-.search__button {
-  margin: .5rem auto;
+.search__bar {
   display: block;
+  margin: .5rem auto;
   border: 0.25rem solid #5514B4;
-  border-radius: 10rem;
-  font-weight: 900;
-  transition: all 0.25s; }
-  .search__button:hover {
-    background: #5514B4;
-    color: #fff;
-    transform: scale(1.075);
-    transition: all 0.25s;
-    cursor: pointer; }
-
-.results__container {
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 2rem; }
-
-.article__container {
-  display: inline-flex;
-  flex-direction: column;
-  border-radius: 1rem;
+  border-radius: 25rem;
+  text-align: center;
   transition: all .25s; }
-  .article__container:hover, .article__container :focus {
+  .search__bar:hover, .search__bar:focus {
+    text-decoration: underline;
     transform: scale(1.075);
     transition: all .25s; }
 
+.results__container {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 2rem;
+  flex-wrap: wrap; }
+
+.article__image {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  height: auto; }
+
+.article__container {
+  border-radius: 1rem;
+  flex-flow: column;
+  vertical-align: top;
+  transition: all .25s; }
+  .article__container:hover, .article__container:focus {
+    transform: scale(1.025);
+    transition: all .25s; }
+  .article__container:focus {
+    outline: 0.125rem solid #333; }
+
 .article__title {
+  border-top: 0.5rem solid #EEE;
   border-bottom: 0.5rem solid #EEE; }
 
 .article__author {
@@ -2911,15 +2918,3 @@ h4 {
 .article__url {
   font-style: italic;
   word-break: break-word; }
-
-.search__bar {
-  display: block;
-  margin: .5rem auto;
-  border: 0.25rem solid #5514B4;
-  border-radius: 25rem;
-  text-align: center;
-  transition: all .25s; }
-  .search__bar:hover, .search__bar :focus {
-    text-decoration: underline;
-    transform: scale(1.075);
-    transition: all .25s; }

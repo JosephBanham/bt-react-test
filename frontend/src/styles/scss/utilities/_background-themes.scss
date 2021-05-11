@@ -31,12 +31,4 @@
       color: mixin-color('charcoal') !important;
     }
   }
-  &--bt-purple {
-    background-color: mixin-color('bt-purple');
-    color: mixin-color('white');
-    &--override {
-      background-color: mixin-color('bt-purple') !important;
-      color: mixin-color('white') !important;
-    }
-  }
 }

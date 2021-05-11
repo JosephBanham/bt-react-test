@@ -27,11 +27,4 @@
       color: mixin-color('mist') !important;
     }
   }
-  &--bt-purple {
-    color: mixin-color('bt-purple');
-
-    &--override {
-      color: mixin-color('bt-purple') !important;
-    }
-  }
 }

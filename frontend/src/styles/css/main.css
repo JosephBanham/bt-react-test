@@ -26,8 +26,11 @@ img {
   width: auto;
   height: fit-content; }
 
-p, strong, a, h1, h2, h3, h4, small, li, ol, ul, sub, sup {
+p, strong, a, small, li, ol, ul, sub, sup {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 p, a {
   margin: 0;
@@ -83,7 +86,6 @@ h1 {
       line-height: 2.25rem; } }
 
 h2 {
-  font-family: "Tahoma";
   margin-block-start: 0;
   margin-block-end: 0; }
   @media only screen and (min-width: 784px) {
@@ -100,7 +102,6 @@ h2 {
       line-height: 2rem; } }
 
 h3 {
-  font-family: "Tahoma";
   margin-block-start: 0;
   margin-block-end: 0; }
   @media only screen and (min-width: 784px) {
@@ -2384,13 +2385,6 @@ h4 {
     background-color: #EEE !important;
     color: #333 !important; }
 
-.theme--bt-purple {
-  background-color: #5514B4;
-  color: #fff; }
-  .theme--bt-purple--override {
-    background-color: #5514B4 !important;
-    color: #fff !important; }
-
 .width--100 {
   width: 100%; }
   .width--100--override {
@@ -2520,11 +2514,6 @@ h4 {
   color: #EEE; }
   .color--mist--override {
     color: #EEE !important; }
-
-.color--bt-purple {
-  color: #5514B4; }
-  .color--bt-purple--override {
-    color: #5514B4 !important; }
 
 .box-shadow {
   -webkit-box-shadow: 0px 0px 20px 0px #333;
@@ -2870,14 +2859,14 @@ h4 {
   .margin-bottom-6--override {
     margin-bottom: 3rem !important; }
 
-.bt__banner {
+.page__banner {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   align-items: center; }
 
 .search__bar {
   display: block;
   margin: .5rem auto;
-  border: 0.25rem solid #5514B4;
+  border: 0.25rem solid #333;
   border-radius: 25rem;
   text-align: center;
   transition: all .25s; }

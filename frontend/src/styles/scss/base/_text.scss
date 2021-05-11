@@ -1,5 +1,8 @@
-p, strong, a, h1, h2, h3, h4, small, li, ol, ul, sub, sup {
+p, strong, a, small, li, ol, ul, sub, sup {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 p, a {
   margin: 0;
@@ -61,7 +64,6 @@ h1 {
   }
 }
 h2 {
-  font-family: "Tahoma";
   margin-block-start: 0;
   margin-block-end: 0;
 
@@ -79,7 +81,6 @@ h2 {
   }
 }
 h3 {
-  font-family: "Tahoma";
   margin-block-start: 0;
   margin-block-end: 0;
 

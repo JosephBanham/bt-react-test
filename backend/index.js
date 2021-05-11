@@ -52,6 +52,6 @@ app.get('/news-api', function (req, res) {
 app.listen(PORT, () => {
   console.log(`=================`)
   console.log(`🎉 API Connected!`)
-  console.log(`🟣 BT React NewsAPI App Test listening at http://localhost:${PORT}`)
+  console.log(`🟢 Listening at http://localhost:${PORT}`)
   console.log(`=================`)
 });

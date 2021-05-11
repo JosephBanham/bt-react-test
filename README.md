@@ -40,6 +40,13 @@ If you find anything wrong with this App, or just want to send a nice compliment
 
 Issues with IE are known. For progress on a fix, please see [BUG-113](https://github.com/JosephBanham/bt-react-test/issues/18)
 
+# Lighthouse Scores
+- Performance: 96
+- Accessibility: 100
+- Best Practices: 100
+- SEO: 100
+- Progressive Web App: No
+
 # Changelog
 - v1.2.0 - Implementation of working search and unification of SearchButton and SearchBar files; also minor page redesign - New Minor version as a result.
 - v1.1.2 - Limited the maximum number of characters pulled from an article to be 150.
